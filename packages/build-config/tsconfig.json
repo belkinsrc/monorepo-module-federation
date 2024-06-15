@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "outDir": "./build/",
+    "noImplicitAny": true,
+    "module": "esNext",
+    "target": "es5",
+    // "jsx": "react",
+    "jsx": "react-jsx", // Чтоб явно не импортировать React в компонентах
+    "allowJs": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "composite": true
+  }
+}
